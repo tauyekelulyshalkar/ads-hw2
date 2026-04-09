@@ -1,4 +1,4 @@
-# Data Structures Tasks
+# ADS tasks
 
 ## Student: Shalkar
 
