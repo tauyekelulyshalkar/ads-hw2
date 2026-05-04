@@ -1,5 +1,5 @@
 '''
-#1
+#1 Heap Sort(ең үлкенді жоғарыға шығарамыз)
 def heapify(a, n, i):
     largest = i
     l = 2*i + 1
@@ -30,7 +30,7 @@ print("After extract:", A)
 '''
 
 '''
-#2
+#2 Quick Sort(с к о ү)
 A = [15, 3, 17, 10, 84, 19, 6, 22, 9]
 
 pivot = A[0]
@@ -49,7 +49,7 @@ print(result)
 '''
 
 '''
-#3
+#3 Merge Sort (бөлу сорттау біріктіру)
 def merge_sort(a):
     if len(a) <= 1:
         return a
@@ -75,7 +75,7 @@ print(merge_sort(A))
 '''
 
 '''
-#4
+#4 Binary Search
 def merge_sort(a):
     if len(a) <= 1:
         return a
@@ -122,7 +122,7 @@ while l <= r:
 '''
 
 '''
-#5
+#5 Linear Search(іздеу степ)
 A = [15, 3, 17, 10, 84, 19, 6, 22, 9]
 target = 19
 
@@ -138,7 +138,7 @@ print("Comparisons:", count)
 '''
 
 '''
-#6
+#6 Min / Max(өзгеріс құлашы)
 A = [15, 3, 17, 10, 84, 19, 6, 22, 9]
 
 mn = A[0]
